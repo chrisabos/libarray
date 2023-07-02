@@ -17,6 +17,7 @@ This also compiles an example program from example/main.c
 - integer only arrays
 - '0' is considered to be a empty element in an array. This is to enable the insert and delete functions to operate properly.
 - Arrays in C are simple enough, and this level of abstraction can be helpful in some circumstatnces. But in practice, an array with '0' defined as empty is not the most widely applicable implementation.
+- There is no 'array_get' function as writing "arr[some_value]" is too simple to be abstracted.
 
 
 ## Functions
@@ -53,5 +54,6 @@ This function prints a representation of the array to stdout.
 | search | O(n) | O(n) |
 | insert | O(n) | O(n) |
 | delete | O(n) | O(n) |
+
 Where 'n' is the size of the array.
 
