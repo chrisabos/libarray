@@ -23,18 +23,35 @@ This also compiles an example program from example/main.c
 Doxygen style comments can be found in [include/array.h](/include/array.h)
 
 ### array_search
-`int array_search(int* arr, int arr_size, int query)`
-This function finds the first occurance of a value in an array.
+```
+int array_search(int* arr, int arr_size, int query)
+```
+This function searches an array for a query value.
 
 ### array_insert
-`int array_insert(int* arr, int arr_size, int insert)`
+```
+int array_insert(int* arr, int arr_size, int insert)
+```
 This function inserts a value into the first empty element in the array.
 
 ### array_delete
-`int array_delete(int* arr, int arr_size, int delete)`
+```
+int array_delete(int* arr, int arr_size, int delete)
+```
 This function deletes the first occurance of the value referenced by the delete argument.
 
 ### array_print
-`int array_print(int* arr, int arr_size)`
+```
+int array_print(int* arr, int arr_size)
+```
 This function prints a representation of the array to stdout.
+
+## Runtime Efficiency
+| Function | Average | Worst Case |
+| -------- | -------- | -------- |
+| get | O(1) | O(1) |
+| search | O(n) | O(n) |
+| insert | O(n) | O(n) |
+| delete | O(n) | O(n) |
+Where 'n' is the size of the array.
 
