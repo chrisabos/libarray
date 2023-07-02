@@ -1,5 +1,5 @@
 # libarray
-This is an example project demonstrating the functions of an array. Specifically, the theoretical efficiency of common data-structure functions like search, insert, and delete. This library does not allow for custom typing and is strictly programmed for integer arrays.
+This is an example project demonstrating the functions of an array in the C programming language. Specifically, the theoretical efficiency of common data-structure functions like search, insert, and delete. This library does not allow for custom typing and is strictly programmed for integer arrays.
 
 ## How to use
 Compile:
