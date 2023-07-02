@@ -1,0 +1,2 @@
+# libarray
+C array library
